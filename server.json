@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.asarogers/bamdw-booking",
+  "title": "Bay Area Mobile Dog Wash Booking",
+  "description": "Check prices by dog size, see openings, and book a mobile dog wash in San Jose + South Bay",
+  "repository": {
+    "url": "https://github.com/asarogers/bamdw-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://bayareamobiledogwash.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bayareamobiledogwash.com/api/mcp"
+    }
+  ]
+}
